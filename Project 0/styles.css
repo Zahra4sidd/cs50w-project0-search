@@ -1,0 +1,136 @@
+body{
+    font-family: Arial,sans-serif;
+    font-size: 81.25%;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    }
+.top-right{
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    }
+.top-right a{
+    margin-left: 15px;
+    text-decoration: none;
+    color: black;
+    font-size:13px;
+}
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 85vh;
+}
+.search-box {
+    display: flex;
+    align-items: center;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    width: 450px;
+    padding: 10px 15px;
+    box-shadow: none;
+}
+.search-icon{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    opacity: 0.9;
+}
+.search-box input{
+    flex: 1;
+    border: none;
+    outline: none;
+    font-size: 13px;
+}
+.buttons {
+    margin-top: 20px;
+}
+.buttons input{
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    padding: 10px 20px;
+    font-size: 12px;
+    margin: 3px;
+    cursor: pointer;
+}
+.buttons input:hover {
+    border: 1px solid #c6c6c6;
+}
+.logo{
+    margin-bottom: 20px;
+}
+.logo img{
+    width: 272px;
+    height: 92px;
+}
+
+.adv-logo{
+   text-align: left;
+   margin: 20px;
+}
+.adv-logo img{
+    width: 74px;
+    height: 24px;
+}
+.adv-title {
+    text-align: left;
+    color: #d93025;
+    font-size: 20px;
+    margin: 25px 35px;
+    margin-top: 50px;
+}
+hr{
+    margin: 10px 40px;
+    border: none;
+    border-top: 1px solid #ddd;
+}
+.form-section p{
+    font-size: 15px;
+}
+.form-section {
+    padding: 20px 30px;
+    text-align: left;
+    max-width: 700px;
+}
+.row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.text{
+    width: 200px;
+    font-size: 12px;
+}
+.row input{
+    flex: 1;
+    padding: 6px;
+    font-size: 12px;
+    border: 1px solid #dfe1e5;
+    border-radius: 1px;
+    outline: none;
+    margin-left: 20px;
+}
+.row input:focus {
+    border: 1px solid #4285F4; 
+    box-shadow: 0 0 3px #4285F4;
+}
+.form-button {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 10px;
+}
+.form-button input{
+    background-color: #4d90fe;
+    color: white;
+    border: 1px solid #3079ed;
+    border-radius: 2px;
+    font-size: 12px;
+    cursor: pointer;
+    height: 30px;
+}
+.form-button input:hover {
+    background-color: #357ae8;
+    border: 1px solid #2f5bb7;
+}
